@@ -1,7 +1,6 @@
 import {
   ChevronDown,
   ChevronUp,
-  Dot,
   Folder,
   Home,
   Inbox,
@@ -11,7 +10,7 @@ import {
   Settings,
   User2,
 } from "lucide-react";
-import profile from "../assets/IMG_9452.PNG";
+const profile = "/src/assets/IMG_9452.PNG";
 import {
   Sidebar,
   SidebarContent,
@@ -34,8 +33,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import {
