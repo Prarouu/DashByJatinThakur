@@ -3,7 +3,7 @@ import { SidebarTrigger } from "./ui/sidebar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "./ui/button";
 import { useTheme } from "./Providers/Theme-Provider";
-import profile from "../assets/IMG_9452.PNG";
+const profile = "/assets/IMG_9452.PNG";
 import {
   DropdownMenu,
   DropdownMenuContent,
