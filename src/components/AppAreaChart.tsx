@@ -9,6 +9,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
+import { Card } from "./ui/card";
 
 const chartConfig = {
   desktop: {
@@ -32,7 +33,7 @@ export default function AppAreaChart() {
   ];
 
   return (
-    <>
+    <Card className="p-6">
       <h1 className="text-lg mb-4">Total Visitors</h1>
       <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
         <AreaChart
@@ -98,6 +99,6 @@ export default function AppAreaChart() {
           />
         </AreaChart>
       </ChartContainer>
-    </>
+    </Card>
   );
 }

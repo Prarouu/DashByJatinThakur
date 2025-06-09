@@ -9,6 +9,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
+import { Card } from "./ui/card";
 
 const chartConfig = {
   desktop: {
@@ -32,7 +33,7 @@ export default function AppBarChart() {
   ];
 
   return (
-    <>
+    <Card className="p-6">
       <h1 className="text-lg mb-4">Total Revenue</h1>
       <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
         <BarChart accessibilityLayer data={chartData}>
@@ -51,6 +52,6 @@ export default function AppBarChart() {
           <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
         </BarChart>
       </ChartContainer>
-    </>
+    </Card>
   );
 }

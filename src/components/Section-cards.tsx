@@ -11,7 +11,7 @@ import { Badge } from "./ui/badge";
 
 export default function SectionCards() {
   return (
-    <div className="bg-black/5 p-4 rounded-lg grid-cols-1 md:grid-cols-2 lg:col-span-2 grid  gap-4">
+    <Card className="p-6 rounded-lg grid-cols-1 md:grid-cols-2 lg:col-span-2 grid gap-4">
       <Card>
         <CardHeader>
           <CardDescription>Total Revenue</CardDescription>
@@ -84,6 +84,6 @@ export default function SectionCards() {
           <div className="text-muted-foreground">Meets growth projections</div>
         </CardFooter>
       </Card>
-    </div>
+    </Card>
   );
 }
