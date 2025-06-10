@@ -66,7 +66,7 @@ export default function CardList() {
           </Button>
         </CardAction>
       </CardHeader>
-      <ScrollArea className="h-auto w-[350]">
+      <ScrollArea className="h-auto w-auto">
         <CardContent>
           {popularContent.map((item) => (
             <Card key={item.id} className="mb-4">
