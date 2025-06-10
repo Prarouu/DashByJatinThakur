@@ -16,9 +16,12 @@ export default function SectionCards() {
         <CardHeader>
           <CardDescription>Total Revenue</CardDescription>
           <CardTitle className="text-4xl mt-2">$1,250.00</CardTitle>
-          <CardAction>
-            <Badge variant="secondary">
-              <TrendingUp /> +12.5%
+          <CardAction className="flex-wrap justify-end">
+            <Badge
+              variant="secondary"
+              className="whitespace-nowrap inline-flex items-center gap-1"
+            >
+              <TrendingUp className="size-4" /> +12.5%
             </Badge>
           </CardAction>
         </CardHeader>
@@ -35,9 +38,12 @@ export default function SectionCards() {
         <CardHeader>
           <CardDescription>New Customers</CardDescription>
           <CardTitle className="text-4xl mt-2">1,234</CardTitle>
-          <CardAction>
-            <Badge variant="secondary">
-              <TrendingDown /> -20%
+          <CardAction className="flex-wrap justify-end">
+            <Badge
+              variant="secondary"
+              className="whitespace-nowrap inline-flex items-center gap-1"
+            >
+              <TrendingDown className="size-4" /> -20%
             </Badge>
           </CardAction>
         </CardHeader>
@@ -54,9 +60,12 @@ export default function SectionCards() {
         <CardHeader>
           <CardDescription>Active Accounts</CardDescription>
           <CardTitle className="text-4xl mt-2">45,678</CardTitle>
-          <CardAction>
-            <Badge variant="secondary">
-              <TrendingUp /> +16.8%
+          <CardAction className="flex-wrap justify-end">
+            <Badge
+              variant="secondary"
+              className="whitespace-nowrap inline-flex items-center gap-1"
+            >
+              <TrendingUp className="size-4" /> +16.8%
             </Badge>
           </CardAction>
         </CardHeader>
@@ -71,9 +80,12 @@ export default function SectionCards() {
         <CardHeader>
           <CardDescription>Growth Rate</CardDescription>
           <CardTitle className="text-4xl mt-2">4.5%</CardTitle>
-          <CardAction>
-            <Badge variant="secondary">
-              <TrendingUp /> +4.5%
+          <CardAction className="flex-wrap justify-end">
+            <Badge
+              variant="secondary"
+              className="whitespace-nowrap inline-flex items-center gap-1"
+            >
+              <TrendingUp className="size-4" /> +4.5%
             </Badge>
           </CardAction>
         </CardHeader>

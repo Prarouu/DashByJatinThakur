@@ -11,7 +11,7 @@ function App() {
     <ThemeProvider defaultTheme="dark">
       <SidebarProvider>
         <SidebarComponent />
-        <main className="w-full h-screen overflow-y-auto p-8">
+        <main className="w-full h-screen overflow-y-auto py-8 md:p-6">
           <Header />
           <Separator className="mt-8" />
           <Dashboard />

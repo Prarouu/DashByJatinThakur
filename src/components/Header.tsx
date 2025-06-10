@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <>
-      <nav className="flex justify-between items-center w-full h-8">
+      <nav className="flex justify-between items-center w-full h-8 px-4 md:px-0">
         <Button size="icon">
           <SidebarTrigger />
         </Button>
